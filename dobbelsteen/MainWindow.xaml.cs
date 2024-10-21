@@ -37,6 +37,8 @@ namespace dobbelsteen
         }
         private void startButton_Click(object sender, RoutedEventArgs e)
         {
+            outputTextBox.Clear();
+
             Random rnd = new Random();
             int dobbelsteenNumber = 0;
 
